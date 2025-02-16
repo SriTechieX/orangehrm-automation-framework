@@ -2,8 +2,6 @@
 import { test, expect } from '@playwright/test';  // ES Module import
 import { LoginPage } from '../Pages/loginPage';
 import { DashboardPage } from '../Pages/dashboardPage';
-// import { DashboardPage } from '../Pages/dashboardPage';
-console.log("Hii.........");
 
 test('Valid user should be able to log in and verify the dashboard', async ({ page }) => {
   const loginPage = new LoginPage(page);
