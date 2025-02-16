@@ -1,9 +1,0 @@
-{
-  "compilerOptions": {
-    "module": "ESNext",   // Use ESNext or "module": "ES6"
-    "moduleResolution": "node",
-    "target": "ESNext",   // Or a lower version like "ES6"
-    "esModuleInterop": true,
-    "strict": true
-  }
-}
