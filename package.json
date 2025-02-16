@@ -1,0 +1,26 @@
+{
+  "name": "orangehrm-automation-framework",
+  "version": "1.0.0",
+  "description": "The goal is to automate testing for the OrangeHRM web application using Playwright (a browser automation tool) and TypeScript (for structured, typed code). Playwright allows you to automate tasks in web browsers, which can be useful for testing applications to ensure that they function correctly",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "npx playwright test --config=./playwright.config.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SriTechieX/orangehrm-automation-framework.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SriTechieX/orangehrm-automation-framework/issues"
+  },
+  "homepage": "https://github.com/SriTechieX/orangehrm-automation-framework#readme",
+  "dependencies": {
+    "playwright": "^1.50.1"
+  }
+}
